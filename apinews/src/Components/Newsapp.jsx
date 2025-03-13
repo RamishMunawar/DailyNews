@@ -14,7 +14,7 @@ const Newsapp = () => {
     }
 useEffect(()=>{
     getData()
-},[search])
+},[])
     const handle = (e) => {
         // console.log(e.target.value)
         setSearch(e.target.value)
