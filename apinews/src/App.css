@@ -1,0 +1,37 @@
+.btn-sports{
+  background-color: rgb(230, 36, 36);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+.btn-sports:hover{
+background-color: rgb(255, 255, 65);
+color: black;
+
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.marquee-text {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
